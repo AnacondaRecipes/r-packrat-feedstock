@@ -10,8 +10,8 @@ package:
 source:
   fn: packrat_{{ version }}.tar.gz
   url:
-    - https://cran.r-project.org/src/contrib/packrat_{{ version }}.tar.gz
-    - https://cran.r-project.org/src/contrib/Archive/packrat/packrat_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/packrat_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/Archive/packrat/packrat_{{ version }}.tar.gz
   sha256: a283caf4fda419e6571ae9ca6210a59002a030721feb8a50c0d0787fd6f672f3
 
 
